@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Grailed Default Sort: Newly Listed",
+  "version": "1.0",
+  "description": "Automatically sets Grailed.com sort to 'Newly Listed'",
+  "content_scripts": [
+    {
+      "matches": ["*://www.grailed.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
